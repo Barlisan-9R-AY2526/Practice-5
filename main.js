@@ -1,15 +1,15 @@
-// function passwordChecker(){
-//     let password = "";
-//     do {
-//         password = prompt("Enter a password longer than 4 characters", "");
-//     }   while (password.length < 5);
-//     window.alert ("Entered Password: ", password);
-// }
-
-function checkCode(){
-    let pass = "";
+function passwordChecker(){
+    let password = "";
     do {
-        pass = prompt("Enter code: ", "" );
-    } while (password.length < 5);
+        password = prompt("Enter a password longer than 4 characters", "");
+    }   while (password.length < 5);
     window.alert ("Entered Password: " + password);
 }
+
+// function checkCode(){
+//     let pass = "";
+//     do {
+//         pass = prompt("Enter code: ", "" );
+//     } while (password.length < 5);
+//     window.alert ("Entered Password: " + password);
+// }
